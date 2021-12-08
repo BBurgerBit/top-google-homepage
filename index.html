@@ -1,0 +1,247 @@
+<DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Google Homepage</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+    <style>
+        * {
+        margin: 0;
+        padding: 0;    
+        font-family: sans-serif;
+        box-sizing: border-box;        
+        }
+
+        html {
+            height: 100%;
+        }
+        
+        header {
+            color: darkgray;
+            display: flex;
+            padding: 10px 20px ;
+            position: fixed;
+            top: 0;
+            width: 100vw;
+        }
+
+        .push1 {
+            margin-left: auto;
+        }
+
+        .push1 > i {
+            padding: 10px;
+            font-size: 100%;
+        }
+
+        header button {
+            border: none;
+            background-color: white;
+            padding: 5px;
+            color: gray;
+        }
+
+        #buttonAbout:hover {
+            text-decoration: underline;
+        }
+        
+        #buttonStore:hover {
+            text-decoration: underline;
+        }
+
+        #buttonGmail:hover {
+            text-decoration: underline;
+        }
+
+        #buttonImages:hover {
+            text-decoration: underline;
+        }
+
+        #buttonSignin {
+            margin-left: 10px;
+            border-radius: 2px;
+            color: white;
+            background-color: rgb(30, 102, 197)       
+        }
+
+        .center {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  
+        padding-top: 15vh;
+        margin-top: 5vh;
+        }
+
+        .bar {
+        width: 600px;
+        height: 10px;
+        background-color: white;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        margin: 20px auto 10px auto;
+        padding: 15px;
+        border-style: solid;
+        border: 100%;
+        border-color: lightgray;
+        border-width: thin; 
+        }
+
+        .bar > i {
+        font-size: 15px;
+        color: lightgray;
+        }
+
+        .bar > input {
+        flex: 1;
+        height: 30px;
+        border: none;
+        outline: none;
+        font-size: 18px;
+        padding-left: 15px;
+        }
+
+        .buttons {
+        width: 20%;
+        height: 330px;
+        padding-top: 10px; 
+        }
+
+        #button1 {
+            color: darkgray;
+            height: 30px;
+            width: 40%;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #button1:hover {
+            border: solid;
+            border-width: thin;
+        }    
+
+        #button2 {
+            color: darkgray;
+            height: 30px;
+            width: 40%;
+            margin: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+
+        #button2:hover {
+            border: solid;
+            border-width: thin;
+        }    
+
+        footer {
+            background-color: lightgray;
+            color: darkgray;
+            display: flex;
+            padding: 10px 20px ;
+            position: fixed;
+            bottom: 0;
+            width: 100vw;
+        }
+
+        .push2 {
+            margin-left: auto;
+        }
+        
+        footer button {
+            border: none;
+            background-color: lightgray;  
+            padding: 5px;
+            color: gray;
+        }
+
+        footer button:hover{ 
+            text-decoration: underline;
+        }
+
+    </style>
+
+    <body> 
+
+        <!--Header-->
+        <header>
+
+            <div class="header1">
+                    
+                <button onlick="" id="buttonAbout">About</button> 
+                <button onlick="" id="buttonStore">Store</button> 
+
+            </div>
+                
+            <div class="push1">    
+
+                <button onlick="" id="buttonGmail">Gmail</button>
+                <button onlick="" id="buttonImages">Images</button>        
+
+                <i class="fa fa-th" area-hidden="true"></i></button>
+
+                <button onlick="" id="buttonSignin">Sign in</button>
+
+            </div>
+
+        </header> 
+        
+        <div class="center">
+
+            <!--Google Logo-->
+            <img id="logo" src=https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png>
+        
+            <!--Search bar-->
+            <div class="bar">
+
+                <i class="fa fa-search" aria-hidden="true"></i>
+            
+                <input type="text" name="">
+            
+            </div>
+
+            <div class="buttons">
+
+                <button type="submit" id="button1">Google Search</button> 
+                <button type="submit" id="button2">I'm Feeling Lucky</button>     
+
+            </div>
+        
+        </div>
+
+        <footer>
+
+            <div class="footer1">
+                    
+                <button onlick="" id="buttonAdvertising">Advertising</button> 
+                <button onlick="" id="buttonBusiness">Business</button>
+                <button onlick="" id="buttonHowSearchworks">How Search works</button>  
+
+            </div>
+                
+            <div class="push2">    
+
+                <button onlick="" id="buttonPrivacy">Privacy</button>
+                <button onlick="" id="buttonTerms">Terms</button>        
+                <button onlick="" id="buttonSettings">Settings</button>
+
+            </div>    
+
+        </footer>
+
+    </body>
+
+</html>
+
+</DOCTYPE>
+
